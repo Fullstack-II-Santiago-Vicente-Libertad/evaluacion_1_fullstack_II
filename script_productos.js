@@ -1,6 +1,3 @@
-// =
-
-
 // 1.- Arreglo de datos de productos
 
 const listaProductos = [
@@ -23,7 +20,7 @@ function cargarProductos() {
     
 
     tarjeta.innerHTML = `
-        <img src="${producto.imagen}" width=300 alt="${producto.nombre} ">
+        <img src="${producto.imagen}" width=200 alt="${producto.nombre} ">
         <h3>${producto.nombre}</h3>
         <p class="precio">$${producto.precio}</p>
         <button onclick="agregarAlCarrito(${producto.id}">Añadir al carrito</button>
