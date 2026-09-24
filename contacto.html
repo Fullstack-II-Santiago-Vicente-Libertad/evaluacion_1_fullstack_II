@@ -7,7 +7,7 @@
 </head>
 <body>
     <nav>
-        <a href="index.html">Home</a>|
+        <a href="index.html">Home</a> |
         <a href="producto.html">Catálogo</a> |
         <a href="contacto.html">Contacto</a> |
         <a href="carrito.html">Carrito</a> 
@@ -18,34 +18,33 @@
     <p>¿Tienes alguna sugerencia, reclamo o recomendación? - Contáctanos</p>
 
 
-    <label>Nombre completo:</label>
-    <input id="nombre" type="text" placeholder="Jonh Doe" required></input>
+    <form id="formulario">
 
-    <label>Teléfono:</label>
-    <input id="telefonoRegistro" type="text" placeholder="+56 9 8765 4321" required></input>
-    
-    <label>Correo:</label>
-    <input id="correoRegistro" type="email" placeholder="jonhdoe@email.com" required></input>
-    
+        <label>Nombre completo:</label>
+        <input id="nombre" type="text" placeholder="Juanito Pérez" required></input>
 
-    
-    <label>Motivo de Contacto</label>
-    <textarea id="motivo" rows="10" placeholder="Ingrese como máximo 10 líneas." required></textarea>
+        <label>Teléfono:</label>
+        <input id="telefono" type="text" placeholder="+56 9 8765 4321" required></input>
+        
+        <label>Correo:</label>
+        <input id="correo" type="text" placeholder="juanito@email.com" ></input>
+        
+        <label>Motivo de Contacto</label>
+        <textarea id="motivo" rows="10" placeholder="Ingrese como máximo 500 caracteres."></textarea>
 
+        <button>Enviar</button>
 
-    <button>Enviar</button>
+        <p id="mensaje"></p>
+
+    </form>
+
 
     <footer> 
         <p>© 2026 BooksySpa - Libertad Gallardo, Vicente Menares y Santiago Villaroel - Prueba 1</p>
     </footer>
 
 
-
-
-
-
 </body>
+<script src="script.js"></script>
 </html>
 
-</body>
-</html>
