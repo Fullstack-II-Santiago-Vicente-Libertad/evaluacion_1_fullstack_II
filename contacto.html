@@ -21,17 +21,25 @@
 
     <form id="formulario">
 
-        <label>Nombre completo:</label>
+<fieldset>
+  <legend>Información personal</legend>
+        <label for="nombre">Nombre completo:</label>
         <input id="nombre" type="text" placeholder="Juanito Pérez" required></input>
 
-        <label>Teléfono:</label>
+        <label for="telefono">Teléfono:</label>
         <input id="telefono" type="text" placeholder="+56 9 8765 4321" required></input>
         
-        <label>Correo:</label>
+        <label for="correo">Correo:</label>
         <input id="correo" type="text" placeholder="juanito@email.com" ></input>
+</fieldset>
+  
+<fieldset>
+    <legend>Mensaje</legend>
+        <label for="motivo">Motivo de Contacto: </label>
+        <textarea id="motivo" rows="4" placeholder="Ingrese como máximo 500 caracteres."></textarea>
+</fieldset>
         
-        <label>Motivo de Contacto</label>
-        <textarea id="motivo" rows="10" placeholder="Ingrese como máximo 500 caracteres."></textarea>
+
 
         <button>Enviar</button>
 
@@ -48,4 +56,5 @@
 </body>
 <script src="script.js"></script>
 </html>
+
 
