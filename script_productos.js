@@ -36,3 +36,4 @@ function cargarProductos() {
 // 3. Ejecución al cargar el documento
 
 document.addEventListener("DOMContentLoaded", cargarProductos);
+
