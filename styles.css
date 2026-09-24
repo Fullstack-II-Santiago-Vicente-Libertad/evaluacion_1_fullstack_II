@@ -2,6 +2,7 @@ body {
     background-color: oldlace;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 nav{
     background-color: #e0f2fe;
     padding: 15px;
@@ -25,9 +26,15 @@ a :hover {
     color: rgb(red, green, blue);
     
 }
-.grid-productos{
 
+.grid-productos {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
+
 form{
     display: block;
     margin-bottom: 50px;
@@ -38,3 +45,17 @@ form{
     height: 230;
     
 }
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#logo {
+    align-items: left;
+ 
+}
+
+
