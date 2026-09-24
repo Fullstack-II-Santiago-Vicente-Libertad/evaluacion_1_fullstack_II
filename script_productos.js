@@ -20,10 +20,13 @@ function cargarProductos() {
     
 
     tarjeta.innerHTML = `
+
         <img src="${producto.imagen}" width=200 alt="${producto.nombre} ">
-        <h3>${producto.nombre}</h3>
-        <p class="precio">$${producto.precio}</p>
+        <h3>Título: ${producto.nombre}</h3>
+        <p>Autor: ${producto.autor}<p>
+        <p class="precio">Precio: $${producto.precio}</p>
         <button onclick="agregarAlCarrito(${producto.id}">Añadir al carrito</button>
+
     `;
 
     contenedor.appendChild(tarjeta);
