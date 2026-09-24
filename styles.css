@@ -54,7 +54,8 @@ form{
 }
 
 .grid-productos {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
     align-items: center;
     gap: 60px;
     margin-bottom: 20px;
