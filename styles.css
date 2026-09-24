@@ -1,16 +1,17 @@
 body {
-    background-color: oldlace;
+    background-color: rgb(241, 240, 236);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .navegacion {
-    background-color: #e0f2fe;
+    background-color: #bb9f9f;
     padding: 50px;
-    text-align: right;
+    text-align: left;
     display:block;
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+    font-size: 25px;
 }
 
 a {
@@ -33,9 +34,8 @@ form{
     margin-bottom: 50px;  
 }
 
-.logo  {
-    width: 250px ;
-    height: 230;  
+#logo  {
+    width: 100px ;  
 }
 
 .titulo-home{
@@ -69,6 +69,9 @@ hr {
 .titulo{
     text-align: center;
 }
+
+
+
 
 
 
