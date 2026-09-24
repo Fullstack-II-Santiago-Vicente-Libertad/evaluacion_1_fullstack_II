@@ -2,10 +2,9 @@ body {
     background-color: oldlace;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
 nav{
     background-color: #e0f2fe;
-    padding: 15px;
+    padding: 50px;
     text-align: right;
     display:block;
     justify-content: center;
@@ -27,18 +26,9 @@ a :hover {
     
 }
 
-.grid-productos {
-    display: flex;
-    align-items: center;
-    gap: 60px;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-}
-
 form{
     display: block;
-    margin-bottom: 50px;
-    
+    margin-bottom: 50px;  
 }
 .logo  {
     width: 250px ;
@@ -46,16 +36,18 @@ form{
     
 }
 
-footer {
-    background-color: black;
-    color: white;
-    padding: 10px;
+
+.titulo-home{
     text-align: center;
 }
 
-#logo {
-    align-items: left;
- 
+.libro-rec img{
+    width: 130px;
+    height: 195px;
 }
 
-
+.recomendados {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
